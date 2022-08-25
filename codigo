@@ -1,0 +1,21 @@
+#include <stdio.h>
+  int num, cont = 0;
+  int procedimento_nump();
+int main() {
+  int num;
+  printf("digite um número: ");
+  scanf("%d",&num);  
+  num = procedimento_nump();  
+  return 0;
+}
+int procedimento_nump(){
+  int num;
+  for(int i=1; i<=num; i++)
+      if(num%i == 0)
+         cont++;
+      if(cont == 2)
+         printf("o número digitado %d é um número primo", num);
+      else
+         printf("o número digitado %d não é um número primo", num);
+  return 0;
+}   
