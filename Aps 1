@@ -58,3 +58,5 @@ void num_aleatorio  (float x[]){
 
     }
 }
+// o programa não rodou no replit, só no Dev c++
+// Gabriel Silveira, Hiago e Riquelme(eu) fizeram juntos
